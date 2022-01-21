@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/arriveyou.unity
+    guid: 9f9793611be6fa04ebde44388f79e0ae
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9ee24003629bd6c419b46cbe16bc6870,
       type: 2}

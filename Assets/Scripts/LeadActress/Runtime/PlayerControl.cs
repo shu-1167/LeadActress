@@ -23,6 +23,10 @@ namespace LeadActress.Runtime {
             _controls.DefaultGameplay.Enable();
         }
 
+        private async void Start() {
+            FlipPlayingState();
+        }
+
         private void OnDisable() {
             _controls.DefaultGameplay.Disable();
         }

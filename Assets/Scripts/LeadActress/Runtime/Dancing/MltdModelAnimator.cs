@@ -60,7 +60,7 @@ namespace LeadActress.Runtime.Dancing {
 
             // Remember to set this flag otherwise there will be some flickering when switching target idols
             modelAnimator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
-            modelAnimator.enabled = false;
+            modelAnimator.enabled = true;
 
             _modelRoot = loaded.Body;
             _animatorController = controller;
